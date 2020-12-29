@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/alex-birthday-app/static/css/main.1615e743.chunk.css",
+    "main.js": "/alex-birthday-app/static/js/main.eb2d06c0.chunk.js",
+    "main.js.map": "/alex-birthday-app/static/js/main.eb2d06c0.chunk.js.map",
+    "runtime-main.js": "/alex-birthday-app/static/js/runtime-main.53d8eb4d.js",
+    "runtime-main.js.map": "/alex-birthday-app/static/js/runtime-main.53d8eb4d.js.map",
+    "static/js/2.fca84507.chunk.js": "/alex-birthday-app/static/js/2.fca84507.chunk.js",
+    "static/js/2.fca84507.chunk.js.map": "/alex-birthday-app/static/js/2.fca84507.chunk.js.map",
+    "static/js/3.8ab2aa3a.chunk.js": "/alex-birthday-app/static/js/3.8ab2aa3a.chunk.js",
+    "static/js/3.8ab2aa3a.chunk.js.map": "/alex-birthday-app/static/js/3.8ab2aa3a.chunk.js.map",
+    "index.html": "/alex-birthday-app/index.html",
+    "static/css/main.1615e743.chunk.css.map": "/alex-birthday-app/static/css/main.1615e743.chunk.css.map",
+    "static/js/2.fca84507.chunk.js.LICENSE.txt": "/alex-birthday-app/static/js/2.fca84507.chunk.js.LICENSE.txt",
+    "static/media/background.94c41406.jpg": "/alex-birthday-app/static/media/background.94c41406.jpg",
+    "static/media/cake_logo.2e8ca27d.svg": "/alex-birthday-app/static/media/cake_logo.2e8ca27d.svg",
+    "static/media/fireworks-background.2a0936f4.gif": "/alex-birthday-app/static/media/fireworks-background.2a0936f4.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53d8eb4d.js",
+    "static/js/2.fca84507.chunk.js",
+    "static/css/main.1615e743.chunk.css",
+    "static/js/main.eb2d06c0.chunk.js"
+  ]
+}

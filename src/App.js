@@ -5,9 +5,6 @@ import fireworks from "./fireworks-background.gif";
 import "./App.css";
 
 function App() {
-  const year = new Date().getFullYear() + 1 + "";
-  const birthayDate = new Date(`${year}-01-15`);
-
   const [today, setToday] = useState(new Date());
 
   useEffect(() => {
@@ -17,6 +14,13 @@ function App() {
 
     return () => clearInterval(interval);
   });
+
+  const thisYear = new Date().getFullYear() + "";
+  const nextYear = new Date().getFullYear() + 1 + "";
+  const birthayDate =
+    new Date(`${thisYear}-01-15`) < today
+      ? new Date(`${nextYear}-01-15`)
+      : new Date(`${thisYear}-01-15`);
 
   const daysLeft = Math.floor((birthayDate - today) / 1000 / 60 / 60 / 24);
   const hoursLeft = Math.floor((birthayDate - today) / 1000 / 60 / 60);
@@ -31,7 +35,7 @@ function App() {
           </h1>
         ) : (
           <h1>
-            {hoursLeft} {hoursLeft !== 1 ? "Hours" : "Hour"}
+            Less than {hoursLeft + 1} {hoursLeft !== 1 ? "Hours" : "Hour"}
           </h1>
         )}
         <h3>left to Alex Chekova's Birthday</h3>
